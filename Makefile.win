@@ -1,0 +1,143 @@
+# Project: AutoIt_DevC
+# Makefile created by Dev-C++ 4.9.9.0
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = AutoIt_DevC_private.res
+OBJ  = release/application.o release/astring_datatype.o release/AutoIt.o release/cmdline.o release/globaldata.o release/guibox.o release/inputbox.o release/mt19937ar-cok.o release/os_version.o release/script.o release/script_file.o release/script_gui.o release/script_lexer.o release/script_math.o release/script_misc.o release/script_parser.o release/script_parser_exp.o release/script_process.o release/script_registry.o release/script_string.o release/script_win.o release/scriptfile.o release/sendkeys.o release/setforegroundwinex.o release/shared_memory.o release/stack_int_datatype.o release/stack_statement_datatype.o release/stack_variable_list.o release/stack_variant_datatype.o release/token_datatype.o release/userfunction_list.o release/utility.o release/variable_list.o release/variabletable.o release/variant_datatype.o release/vector_token_datatype.o release/vector_variant_datatype.o release/regexp.o $(RES)
+LINKOBJ  = release/application.o release/astring_datatype.o release/AutoIt.o release/cmdline.o release/globaldata.o release/guibox.o release/inputbox.o release/mt19937ar-cok.o release/os_version.o release/script.o release/script_file.o release/script_gui.o release/script_lexer.o release/script_math.o release/script_misc.o release/script_parser.o release/script_parser_exp.o release/script_process.o release/script_registry.o release/script_string.o release/script_win.o release/scriptfile.o release/sendkeys.o release/setforegroundwinex.o release/shared_memory.o release/stack_int_datatype.o release/stack_statement_datatype.o release/stack_variable_list.o release/stack_variant_datatype.o release/token_datatype.o release/userfunction_list.o release/utility.o release/variable_list.o release/variabletable.o release/variant_datatype.o release/vector_token_datatype.o release/vector_variant_datatype.o release/regexp.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -mwindows -lwinmm -lversion -lwsock32 -lole32 -loleaut32 -luuid -lcomctl32 -lmpr  -s 
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/include/c++/3.3.1"  -I"C:/Dev-Cpp/include/c++/3.3.1/mingw32"  -I"C:/Dev-Cpp/include/c++/3.3.1/backward"  -I"C:/Dev-Cpp/lib/gcc-lib/mingw32/3.3.1/include"  -I"C:/Dev-Cpp/include" 
+BIN  = bin/AutoIt3.exe
+CXXFLAGS = $(CXXINCS) -mwindows -mthreads   -O1
+CFLAGS = $(INCS)    -O1
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before bin/AutoIt3.exe all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "bin\AutoIt3.exe" $(LIBS)
+
+release/application.o: src/application.cpp
+	$(CPP) -c src/application.cpp -o release/application.o $(CXXFLAGS)
+
+release/astring_datatype.o: src/astring_datatype.cpp
+	$(CPP) -c src/astring_datatype.cpp -o release/astring_datatype.o $(CXXFLAGS)
+
+release/AutoIt.o: src/AutoIt.cpp
+	$(CPP) -c src/AutoIt.cpp -o release/AutoIt.o $(CXXFLAGS)
+
+release/cmdline.o: src/cmdline.cpp
+	$(CPP) -c src/cmdline.cpp -o release/cmdline.o $(CXXFLAGS)
+
+release/globaldata.o: src/globaldata.cpp
+	$(CPP) -c src/globaldata.cpp -o release/globaldata.o $(CXXFLAGS)
+
+release/guibox.o: src/guibox.cpp
+	$(CPP) -c src/guibox.cpp -o release/guibox.o $(CXXFLAGS)
+
+release/inputbox.o: src/inputbox.cpp
+	$(CPP) -c src/inputbox.cpp -o release/inputbox.o $(CXXFLAGS)
+
+release/mt19937ar-cok.o: src/mt19937ar-cok.cpp
+	$(CPP) -c src/mt19937ar-cok.cpp -o release/mt19937ar-cok.o $(CXXFLAGS)
+
+release/os_version.o: src/os_version.cpp
+	$(CPP) -c src/os_version.cpp -o release/os_version.o $(CXXFLAGS)
+
+release/script.o: src/script.cpp
+	$(CPP) -c src/script.cpp -o release/script.o $(CXXFLAGS)
+
+release/script_file.o: src/script_file.cpp
+	$(CPP) -c src/script_file.cpp -o release/script_file.o $(CXXFLAGS)
+
+release/script_gui.o: src/script_gui.cpp
+	$(CPP) -c src/script_gui.cpp -o release/script_gui.o $(CXXFLAGS)
+
+release/script_lexer.o: src/script_lexer.cpp
+	$(CPP) -c src/script_lexer.cpp -o release/script_lexer.o $(CXXFLAGS)
+
+release/script_math.o: src/script_math.cpp
+	$(CPP) -c src/script_math.cpp -o release/script_math.o $(CXXFLAGS)
+
+release/script_misc.o: src/script_misc.cpp
+	$(CPP) -c src/script_misc.cpp -o release/script_misc.o $(CXXFLAGS)
+
+release/script_parser.o: src/script_parser.cpp
+	$(CPP) -c src/script_parser.cpp -o release/script_parser.o $(CXXFLAGS)
+
+release/script_parser_exp.o: src/script_parser_exp.cpp
+	$(CPP) -c src/script_parser_exp.cpp -o release/script_parser_exp.o $(CXXFLAGS)
+
+release/script_process.o: src/script_process.cpp
+	$(CPP) -c src/script_process.cpp -o release/script_process.o $(CXXFLAGS)
+
+release/script_registry.o: src/script_registry.cpp
+	$(CPP) -c src/script_registry.cpp -o release/script_registry.o $(CXXFLAGS)
+
+release/script_string.o: src/script_string.cpp
+	$(CPP) -c src/script_string.cpp -o release/script_string.o $(CXXFLAGS)
+
+release/script_win.o: src/script_win.cpp
+	$(CPP) -c src/script_win.cpp -o release/script_win.o $(CXXFLAGS)
+
+release/scriptfile.o: src/scriptfile.cpp
+	$(CPP) -c src/scriptfile.cpp -o release/scriptfile.o $(CXXFLAGS)
+
+release/sendkeys.o: src/sendkeys.cpp
+	$(CPP) -c src/sendkeys.cpp -o release/sendkeys.o $(CXXFLAGS)
+
+release/setforegroundwinex.o: src/setforegroundwinex.cpp
+	$(CPP) -c src/setforegroundwinex.cpp -o release/setforegroundwinex.o $(CXXFLAGS)
+
+release/shared_memory.o: src/shared_memory.cpp
+	$(CPP) -c src/shared_memory.cpp -o release/shared_memory.o $(CXXFLAGS)
+
+release/stack_int_datatype.o: src/stack_int_datatype.cpp
+	$(CPP) -c src/stack_int_datatype.cpp -o release/stack_int_datatype.o $(CXXFLAGS)
+
+release/stack_statement_datatype.o: src/stack_statement_datatype.cpp
+	$(CPP) -c src/stack_statement_datatype.cpp -o release/stack_statement_datatype.o $(CXXFLAGS)
+
+release/stack_variable_list.o: src/stack_variable_list.cpp
+	$(CPP) -c src/stack_variable_list.cpp -o release/stack_variable_list.o $(CXXFLAGS)
+
+release/stack_variant_datatype.o: src/stack_variant_datatype.cpp
+	$(CPP) -c src/stack_variant_datatype.cpp -o release/stack_variant_datatype.o $(CXXFLAGS)
+
+release/token_datatype.o: src/token_datatype.cpp
+	$(CPP) -c src/token_datatype.cpp -o release/token_datatype.o $(CXXFLAGS)
+
+release/userfunction_list.o: src/userfunction_list.cpp
+	$(CPP) -c src/userfunction_list.cpp -o release/userfunction_list.o $(CXXFLAGS)
+
+release/utility.o: src/utility.cpp
+	$(CPP) -c src/utility.cpp -o release/utility.o $(CXXFLAGS)
+
+release/variable_list.o: src/variable_list.cpp
+	$(CPP) -c src/variable_list.cpp -o release/variable_list.o $(CXXFLAGS)
+
+release/variabletable.o: src/variabletable.cpp
+	$(CPP) -c src/variabletable.cpp -o release/variabletable.o $(CXXFLAGS)
+
+release/variant_datatype.o: src/variant_datatype.cpp
+	$(CPP) -c src/variant_datatype.cpp -o release/variant_datatype.o $(CXXFLAGS)
+
+release/vector_token_datatype.o: src/vector_token_datatype.cpp
+	$(CPP) -c src/vector_token_datatype.cpp -o release/vector_token_datatype.o $(CXXFLAGS)
+
+release/vector_variant_datatype.o: src/vector_variant_datatype.cpp
+	$(CPP) -c src/vector_variant_datatype.cpp -o release/vector_variant_datatype.o $(CXXFLAGS)
+
+release/regexp.o: src/regexp.cpp
+	$(CPP) -c src/regexp.cpp -o release/regexp.o $(CXXFLAGS)
+
+AutoIt_DevC_private.res: AutoIt_DevC_private.rc 
+	$(WINDRES) -i AutoIt_DevC_private.rc -I rc -o AutoIt_DevC_private.res -O coff  --include-dir src/RESOUR~1

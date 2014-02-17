@@ -1,0 +1,117 @@
+CREDITS
+=======
+
+AutoIt v3 is based on the original AutoIt program by Jonathan Bennett.
+
+
+Programming
+===========
+
+Core Programming and framework (and style police)
+-------------------------------------------------
+- Jonathan Bennett <jon at hiddensoft com>
+
+
+Contributions
+-------------
+Names are listed in NO PARTICULAR ORDER.  The script commands that were influenced/created by the contributors
+are also given where possible - if you are not mentioned and think you should be then drop me a mail.
+
+
+- Larry Keys <larrydalooza at yahoo com>
+
+	AutoIt Window Spy, AU3GUI and
+
+	ControlFocus, ControlLeftClick, @IPAddressNN, FileGetSize, FileGetTime, FileOpenDialog,
+	FileSaveDialog, FileSelectFolder, DiskSpaceTotal, DiskSpaceFree, PixelSearch, PixelGetColor,
+	FileCreateShortcut, WinSetOnTop, FileExists, DriveGetDrive, CDTray, ControlSetText,
+	ControlGetText, ControlCommand, ControlMove, ControlEnable, ControlDisable, ControlShow,
+	ControlHide, WinGetClassList, IsAdmin, SplashImageOn, SplashTestOn, SplashOff
+	ProgressOn, ProgressOff, ProgressSet, DriveGetLabel, DriveGetSerial, DriveGetFileSystem, 
+	DriveSetLabel, DriveGetType, MouseGetCursor, FileFindFirstFile, FileFindNextFile,
+	ControlGetFocus
+
+	
+- David Nuttall <danuttall at autoit3 com>
+
+	General C++ advice,
+	StringIsAlpha, StringIsLower, StringIsUpper, StringIsDigit, StringIsAlNum, StringIsXDigit, StringIsSpace, 
+	StringIsASCII, RegDelete, Asc, DirRemove, DirCreate, Random, UBound, FileRecycle, IsArray, IsInt, IsFloat, 
+	IsString, StringStripWS, Mod, InputBox, variabletable.cpp rewrite and binary tree prototypes, new function 
+	lookup design/ideas, Redim, unified Structure stack, ContinueLoop, Util_MouseDown, Util_MouseUp (primary/secondary),
+	Binary Search code for function lookup, StringRegEx... functions.
+	
+	
+- J-Paul Mesnage <jpaul-mesnage at ifrance com>
+
+	v2 to v3 Converter, AU3GUI and
+	
+	Lots of bug reports, regression testing and ideas/prototypes,
+	@OSServicePack, @OSBuild, @AutoItVersion, AutoItWinShow, AutoItWinWrite, SoundPlay, StringFormat
+	@OSLang, Hex, AutoItWinGetText, _ Continuation, Single-line IFs, Dim/Global/Local same line initialisation,
+	TrayTipDebug, better non-English keyboard support for Send functions, optional UDF parameters
+	
+	Prototypes for: Error/include tracking code, Local/Global
+
+
+- Jason Boggs <vampirevalik at hotmail com>
+
+	#include <> multiple directories, TrayTip, ToolTip, MemGetStats, new function lookup design/ideas,
+	PID support in process functions and Run(), ProcessSetPriority, Assign, ConsoleWrite, ProcessList,
+	WinSetTrans, IniReadSectionNames, IniReadSection
+
+
+- Tylo <tylo at start.no>
+
+	Float lexing and double to string conversions.  Some math functions (tan, atan, etc.)
+	vector_datatype.h, stack_datatype.h, variable_table.cpp rewrite (discontinued), new function lookup
+	design/ideas
+	
+
+- Jeremy Landes <jlandes at landeserve com>
+
+	Standard include files compilation and
+
+	XP Visual Styles manifest files.  Some math functions (Abs, Pow, Sqrt, etc.)
+	@UserName, @TempDir, @UserProfileDir, @HomeDrive, @HomePath, @HomeShare, @LogonServer, 
+	@LogonDomain, @LogonDNSDomain
+
+
+- Philip "CyberSlug" Gump <cyberslug at autoitscript com>
+
+	ControlCommand(GetCurrentCol)
+
+
+- Jos van der Zande <jvdzande at yahoo com>
+
+	Misc bug fixes, Scite lexer, Standard include files.
+
+
+- Holger <Holger.Kotsch at GMX de>
+
+	AU3GUI (especially Menus, Treeviews and ContextMenus) and
+
+	FileGetShortcut, FileCreateShortcut, FileSelectFolder, @DesktopRefresh, Ping
+	
+
+- Garrett "The HardlyDeservesCreditFor20LinesOfCode" R. Mueller ;) <garrett at mailsnare.net>
+
+	TimerInit, TimerDiff
+
+
+
+External contributions and other sources used
+---------------------------------------------
+
+- Amir Szekely <kichik at netvision net il>
+
+	ResourceEditor.cpp - Resource editing functions (works on 9x too)
+	Thanks to Amir who coded the resource functions for the NSIS Installer and helped me
+	get the code working with AutoIt.  Check out the NSIS installer at:
+	http://nsis.sourceforge.net/site/index.php
+
+
+- Gabriele Scibilia <http://www.geocities.com/gabriele_scibilia/>
+
+	qmath.h - used with permission.
+

@@ -1,0 +1,231 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include <winresrc.h>
+#define IDC_STATIC -1
+#ifndef CREATEPROCESS_MANIFEST_RESOURCE_ID
+#define CREATEPROCESS_MANIFEST_RESOURCE_ID 1
+#endif
+#ifndef RT_MANIFEST
+#define RT_MANIFEST 24
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID 24      MOVEABLE PURE   "AutoIt3.exe.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_INPUTBOX DIALOGEX 0, 0, 162, 95
+STYLE DS_SETFOREGROUND | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "AutoIt Input Box"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Prompt",IDC_INPUTPROMPT,7,7,147,44
+    EDITTEXT        IDC_INPUTEDIT,7,56,147,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,16,73,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,87,73,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_TRAY1 MENU DISCARDABLE 
+BEGIN
+    POPUP "Context1"
+    BEGIN
+        MENUITEM "Script &Paused",              ID_TRAY_PAUSE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_EXIT
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include <winresrc.h>\r\n"
+    "#define IDC_STATIC -1\r\n"
+    "#ifndef CREATEPROCESS_MANIFEST_RESOURCE_ID\r\n"
+    "#define CREATEPROCESS_MANIFEST_RESOURCE_ID 1\r\n"
+    "#endif\r\n"
+    "#ifndef RT_MANIFEST\r\n"
+    "#define RT_MANIFEST 24\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""AutoIt_VersionInfo.rc""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON    DISCARDABLE     "AutoIt_Main.ico"
+IDI_PAUSED              ICON    DISCARDABLE     "AutoIt_Tray_Paused.ico"
+IDI_DRAG                ICON    DISCARDABLE     "AutoIt_Gui_Drag.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_AUT_E_TITLE         "AutoIt Error"
+    IDS_AUT_E_OBJECTALLOC   "Unable to allocate memory required for base objects."
+    IDS_AUT_E_OPENSCRIPT    "Unable to open the script file."
+    IDS_AUT_E_BADFUNCSTATEMENT "Badly formatted ""Func"" statement."
+    IDS_AUT_TIP_PAUSED      "(Paused) "
+    IDS_AUT_E_GENPARSE      "Unable to parse line."
+    IDS_AUT_E_RIGHTPAREN    "Missing right bracket ')' in expression."
+    IDS_AUT_E_MISSINGOP     "Missing operator in expression."
+    IDS_AUT_E_UNBALANCEDPAREN "Unbalanced brackets in expression."
+    IDS_AUT_E_EXPRESSION    "Error in expression."
+    IDS_AUT_E_GENFUNCTION   "Error parsing function call."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_AUT_E_FUNCTIONNUMPARAMS 
+                            "Incorrect number of parameters in function call."
+    IDS_AUT_E_REDIMUSEDONNONARRAY """ReDim"" used without an array variable."
+    IDS_AUT_E_EXTRAONLINE   "Illegal text at the end of statement (one statement per line)."
+    IDS_AUT_E_MISSINGENDIF  """If"" statement has no matching ""EndIf"" statement."
+    IDS_AUT_E_ELSENOMATCHINGIF 
+                            """Else"" statement with no matching ""If"" statement."
+    IDS_AUT_E_ENDIFNOMATCHINGIF 
+                            """EndIf"" statement with no matching ""If"" statement."
+    IDS_AUT_E_TOOMANYELSE   "Too many ""Else"" statements for matching ""If"" statement."
+    IDS_AUT_E_MISSINGWEND   """While"" statement has no matching ""Wend"" statement."
+    IDS_AUT_E_WENDNOMATCHINGWHILE 
+                            """Wend"" statement with no matching ""While"" statement."
+    IDS_AUT_E_VARNOTFOUND   "Variable used without being declared."
+    IDS_AUT_E_BADSUBSCRIPT  "Array variable has incorrect number of subscripts or subscript dimension range exceeded."
+    IDS_AUT_E_PARSESUBSCRIPT "Array variable subscript badly formatted."
+    IDS_AUT_E_NONARRAYWITHSUBSCRIPT "Subscript used with non-Array variable."
+    IDS_AUT_E_TOOMANYSUBSCRIPTS "Too many subscripts used for an array."
+    IDS_AUT_E_TOOFEWSUBSCRIPTS 
+                            "Missing subscript dimensions in ""Dim"" statement."
+    IDS_AUT_E_DIMWITHOUTVAR "No variable given for ""Dim"", ""Local"", ""Global"" or ""Const"" statement."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_AUT_E_BADFILEFILTER "Invalid file filter given."
+    IDS_AUT_E_FUNCTIONEXPECTEDVARIABLE 
+                            "Expected a variable in user function call."
+    IDS_AUT_E_MISSINGUNTIL  """Do"" statement has no matching ""Until"" statement."
+    IDS_AUT_E_UNTILNOMATCHINGDO 
+                            """Until"" statement with no matching ""Do"" statement."
+    IDS_AUT_E_NEXTNOMATCHINGFOR 
+                            """Next"" statement with no matching ""For"" statement."
+    IDS_AUT_E_EXITLOOP      """ExitLoop/ContinueLoop"" statements only valid from inside a For/Do/While loop."
+    IDS_AUT_E_MISSINGNEXT   """For"" statement has no matching ""Next"" statement."
+    IDS_AUT_E_CASENOMATCHINGSELECT 
+                            """Case"" statement with no matching ""Select"" statement."
+    IDS_AUT_E_ENDSELECTNOMATCHINGSELECT 
+                            """EndSelect"" statement with no matching ""Select"" statement."
+    IDS_AUT_E_MAXRECURSE    "Recursion level has been exceeded - AutoIt will quit to prevent stack overflow."
+    IDS_AUT_E_RUNASFAILED   "Unable to access RunAs API."
+    IDS_AUT_E_MISSINGQUOTE  "String missing closing quote."
+    IDS_AUT_E_VARBADFORMAT  "Badly formated variable or macro."
+    IDS_AUT_E_FORERROR      """For"" statement is badly formatted."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_AUT_E_MISSINGENDSELECTORCASE 
+                            """Select"" statement is missing ""EndSelect"" or ""Case"" statement."
+    IDS_AUT_E_MISSINGTHEN   """If"" statements must have a ""Then"" keyword."
+    IDS_AUT_E_NESTEDIF      "Nested ""If"" statements are not allowed on a single line."
+    IDS_AUT_E_KEYWORDAFTERTHEN 
+                            "This keyword cannot be used after a ""Then"" keyword."
+    IDS_AUT_E_ASSIGNTOCONST "Cannot assign values to constants."
+    IDS_AUT_E_CONSTONEXISTING "Cannot make existing variables into constants."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_AUT_E_EXPECTEDASSIGNMENT 
+                            "Expected a ""="" operator in assignment statement."
+    IDS_AUT_E_INVALIDSTARTKEYWORD "Invalid keyword at the start of this line."
+    IDS_AUT_E_ARRAYALLOC    "Array maximum size exceeded."
+    IDS_AUT_E_MISSINGENDFUNC """Func"" statement has no matching ""EndFunc""."
+    IDS_AUT_E_DUPLICATEFUNC "Duplicate function name."
+    IDS_AUT_E_UNKNOWNUSERFUNC "Unknown function name."
+    IDS_AUT_E_MACROUNKNOWN  "Unknown macro."
+    IDS_AUT_E_RUNPROG       "Unable to execute the external program."
+    IDE_AUT_E_PROCESSNT     "Unable to get a list of running processes."
+    IDS_AUT_E_BADOPTION     "Unknown option or bad parameter specified."
+    IDS_AUT_E_URLMON        "Unable to load the internet libraries."
+    IDS_AUT_E_ARRAYUSEDNODIM 
+                            "You must DIM an array before you can assign to it."
+    IDS_AUT_E_TOOMANYFILES  "Unable to open file, the maximum number of open files has been exceeded."
+    IDS_AUT_E_FILEHANDLEINVALID "Invalid file handle used."
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "AutoIt_VersionInfo.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

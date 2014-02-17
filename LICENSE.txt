@@ -1,0 +1,95 @@
+AutoIt Source Code
+
+Author	: Jonathan Bennett and the AutoIt Team 
+WWW	: http://www.autoitscript.com/autoit3/ 
+Email 	: support@hiddensoft.com 
+________________________________________________________
+
+          END-USER LICENSE AGREEMENT FOR THIS SOFTWARE
+                   Important - read carefully:
+
+This End-User License Agreement ("EULA") is a legal agreement
+between you (either an individual or a single entity) and the
+mentioned author of this Software for the software product
+identified above, which includes computer software and may
+include associated media, printed materials, and "online"
+or electronic documentation.
+By installing, copying, or otherwise using the AutoIt source code,
+you agree to be bound by the terms of this EULA. If you do not
+agree to the terms of this EULA, do not install or use the
+AutoIt source code. 
+
+
+SOFTWARE PRODUCT LICENSE
+
+AutoIt and AutoIt source code is protected by copyright laws and
+international copyright treaties, as well as other intellectual 
+property laws and treaties. AutoIt source code is licensed, not sold.
+
+
+1. GRANT OF LICENSE. 
+
+You may: 
+
+- Customize the design and operation of the AutoIt source code to suit
+the internal needs of your organization except to the extent not 
+permitted in this Agreement 
+
+You may not: 
+
+- Distribute the AutoIt source code and/or compiled versions of AutoIt 
+created with the AutoIt source code.
+- Create derivative works based on the AutoIt source code for distribution 
+or usage outside your organisation. 
+- Modify and/or remove any copyright notices or labels included in the 
+AutoIt source code.
+
+
+2. COPYRIGHT.
+
+All title and copyrights in and to the AutoIt source code
+(including but not limited to any images, photographs, animations,
+video, audio, music, text, and "applets" incorporated into the
+AutoIt source code), the accompanying printed materials, and any
+copies of the AutoIt source code are owned by the Author of this
+Software. AutoIt source code is protected by copyright laws
+and international treaty provisions. Therefore, you must treat
+AutoIt source code like any other copyrighted material.
+
+
+MISCELLANEOUS 
+
+If you acquired this product in the United Kingdom, this EULA is
+governed by the laws of the United Kingdom.
+
+If this product was acquired outside the United Kingdom, then local
+law may apply.
+
+Should you have any questions concerning this EULA, or if you desire
+to contact the author of this Software for any reason, please contact
+him/her at the email address mentioned at the top of this EULA.
+
+
+LIMITED WARRANTY 
+
+NO WARRANTIES.
+The Author of this Software expressly disclaims any warranty for
+the AutoIt source code. AutoIt source code and any related
+documentation is provided "as is" without warranty of any kind,
+either express or implied, including, without limitation, the
+implied warranties or merchantability, fitness for a particular
+purpose, or noninfringement. The entire risk arising out of use
+or performance of the AutoIt source code remains with you.
+
+NO LIABILITY FOR DAMAGES.
+In no event shall the author of this Software be liable for any
+damages whatsoever (including, without limitation, damages for
+loss of business profits, business interruption, loss of business
+information, or any other pecuniary loss) arising out of the use
+of or inability to use this product, even if the Author of this
+Software has been advised of the possibility of such damages.
+Because some states/jurisdictions do not allow the exclusion
+or limitation of liability for consequential or incidental damages,
+the above limitation may not apply to you.
+
+[END OF LICENSE]

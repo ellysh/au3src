@@ -1,0 +1,77 @@
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+// Include the auto generated version info
+#include "AutoIt_VersionInfo.h"
+
+
+#ifdef AUTOITSC
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION MYFILEVER
+ PRODUCTVERSION MYPRODUCTVER
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Comments", "http://www.autoitscript.com/autoit3/compiled.html"
+            VALUE "FileDescription", ""
+            VALUE "FileVersion", MYSTRFILEVER
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+#else
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION MYFILEVER
+ PRODUCTVERSION MYPRODUCTVER
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Comments", "http://www.autoitscript.com/autoit3/"
+            VALUE "FileDescription", "AutoIt v3 Script"
+            VALUE "FileVersion", MYSTRFILEVER
+            VALUE "InternalName", "AutoIt3.exe"
+            VALUE "LegalCopyright", "©1999-2005 Jonathan Bennett & AutoIt Team"
+            VALUE "OriginalFilename", "AutoIt3.exe"
+            VALUE "ProductName", "AutoIt v3 Script"
+            VALUE "ProductVersion", MYSTRPRODUCTVER
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+#endif
+
